@@ -26,4 +26,13 @@ public class WordSearchTest {
 
         assertEquals("One line example.", result);
     }
+
+    @Test
+    public void ReadFile_WhenMultiLineFile_ReturnsContent() {
+        File file = new File(classLoader.getResource("MultiLineFile.txt").getFile());
+
+        String result = wordSearch.ReadFile(file.getAbsolutePath());
+
+        assertEquals("Multi line\nexample.\nMulti\nline.", result);
+    }
 }

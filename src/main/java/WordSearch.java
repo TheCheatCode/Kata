@@ -5,8 +5,13 @@ public class WordSearch {
     public String ReadFile(String fileName) {
         String result;
         try(BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
+            String currentLine;
             result = reader.readLine();
 
+            while ((currentLine = reader.readLine()) != null) {
+
+                result += "\n" + currentLine;
+            }
             reader.close();
 
         } catch (Exception e) {
