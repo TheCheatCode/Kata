@@ -1,6 +1,7 @@
 import org.junit.Test;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 
 import static junit.framework.TestCase.assertEquals;
 
@@ -41,5 +42,12 @@ public class WordSearchTest {
         String result = wordSearch.ReadFile("NonTxtFile.exe");
 
         assertEquals("", result);
+    }
+
+    @Test
+    public void ReadFile_WhenFileNotFound_ReturnsErrorMessage() {
+        String result = wordSearch.ReadFile("FileNotFound.txt");
+
+        assertEquals("FileNotFound.txt (The system cannot find the file specified)", result);
     }
 }
