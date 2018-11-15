@@ -35,4 +35,11 @@ public class WordSearchTest {
 
         assertEquals("Multi line\nexample.\nMulti\nline.", result);
     }
+
+    @Test
+    public void ReadFile_WhenNonTxtFile_ReturnsEmptyString() {
+        String result = wordSearch.ReadFile("NonTxtFile.exe");
+
+        assertEquals("", result);
+    }
 }
