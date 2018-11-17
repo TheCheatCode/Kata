@@ -29,8 +29,8 @@ public class WordSearch {
         return result;
     }
 
-    public String[] ReadWords(String one) {
-        String[] returnValue = one.split(",");
+    public String[] ReadWords(String input) {
+        String[] returnValue = input.split(",");
 
         return returnValue;
     }
