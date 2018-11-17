@@ -31,8 +31,8 @@ public class WordSearch {
 
     public String[] ReadWords(String input) {
         String[] lines = input.split("\n");
-        String[] returnValue = lines[0].split(",");
+        String[] words = lines[0].split(",");
 
-        return returnValue;
+        return words;
     }
 }
