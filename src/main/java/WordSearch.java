@@ -30,7 +30,8 @@ public class WordSearch {
     }
 
     public String[] ReadWords(String input) {
-        String[] returnValue = input.split(",");
+        String[] lines = input.split("\n");
+        String[] returnValue = lines[0].split(",");
 
         return returnValue;
     }

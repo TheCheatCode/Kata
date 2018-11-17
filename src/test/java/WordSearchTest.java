@@ -70,4 +70,13 @@ public class WordSearchTest {
 
         assertTrue(Arrays.equals(expected, result));
     }
+
+    @Test
+    public void ReadWords_WhenMultiWordMultiLine_ReturnsWordArray() {
+        String[] expected = {"First","Second","Third"};
+
+        String[] result = wordSearch.ReadWords("First,Second,Third\nA,B,C");
+
+        assertTrue(Arrays.equals(expected, result));
+    }
 }
