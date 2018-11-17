@@ -79,4 +79,13 @@ public class WordSearchTest {
 
         assertTrue(Arrays.equals(expected, result));
     }
+
+    @Test
+    public void ReadWords_WhenOneWordMultiLine_ReturnsWordArray() {
+        String[] expected = {"Word"};
+
+        String[] result = wordSearch.ReadWords("Word\nX,Y,Z");
+
+        assertTrue(Arrays.equals(expected, result));
+    }
 }

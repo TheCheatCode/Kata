@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a276a0d1-023a-490b-bcf6-e567f0658a81" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/WordSearch.java" afterPath="$PROJECT_DIR$/src/main/java/WordSearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/WordSearchTest.java" afterPath="$PROJECT_DIR$/src/test/java/WordSearchTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -21,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="WordSearchTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WordSearchTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WordSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="79" column="52" lean-forward="true" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
+            <state relative-caret-position="300">
+              <caret line="86" column="59" lean-forward="false" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordSearch.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordSearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WordSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="267">
               <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -346,8 +347,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ReadFileTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/OneLineFile.txt" />
         <option value="$PROJECT_DIR$/src/test/resources/MultiLineFile.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/WordSearchTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/WordSearch.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WordSearchTest.java" />
       </list>
     </option>
   </component>
@@ -692,8 +693,8 @@
     <history-entry file="WordSearchTest - 2018.11.17 at 13h 04m 04s.xml">
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordSearchTest_ReadFile_WhenFileNotFound_ReturnsError - 2018.11.15 at 12h 57m 19s.xml">
-      <configuration name="WordSearchTest.ReadFile_WhenFileNotFound_ReturnsError" configurationId="JUnit" />
+    <history-entry file="WordSearchTest - 2018.11.17 at 13h 07m 00s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="WordSearchTest_ReadFile_WhenMultiLineFile_ReturnsContent - 2018.11.15 at 12h 41m 10s.xml">
       <configuration name="WordSearchTest.ReadFile_WhenMultiLineFile_ReturnsContent" configurationId="JUnit" />
@@ -865,20 +866,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WordSearchTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/WordSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="79" column="52" lean-forward="true" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
+        <state relative-caret-position="267">
+          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WordSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        <state relative-caret-position="300">
+          <caret line="86" column="59" lean-forward="false" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
