@@ -72,7 +72,7 @@ public class WordSearchTest {
     }
 
     @Test
-    public void ReadWords_WhenMultiWordMultiLine_ReturnsWordArray() {
+    public void ReadWords_WhenMultiWordTwoLine_ReturnsWordArray() {
         String[] expected = {"First","Second","Third"};
 
         String[] result = wordSearch.ReadWords("First,Second,Third\nA,B,C");
@@ -81,7 +81,7 @@ public class WordSearchTest {
     }
 
     @Test
-    public void ReadWords_WhenOneWordMultiLine_ReturnsWordArray() {
+    public void ReadWords_WhenOneWordTwoLine_ReturnsWordArray() {
         String[] expected = {"Word"};
 
         String[] result = wordSearch.ReadWords("Word\nX,Y,Z");
