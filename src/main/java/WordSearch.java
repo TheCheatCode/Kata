@@ -28,4 +28,10 @@ public class WordSearch {
 
         return result;
     }
+
+    public String[] ReadWords(String one) {
+        String[] returnValue = {"One"};
+
+        return returnValue;
+    }
 }

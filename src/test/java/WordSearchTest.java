@@ -2,8 +2,10 @@ import org.junit.Test;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Arrays;
 
 import static junit.framework.TestCase.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class WordSearchTest {
     WordSearch wordSearch = new WordSearch();
@@ -49,5 +51,14 @@ public class WordSearchTest {
         String result = wordSearch.ReadFile("FileNotFound.txt");
 
         assertEquals("FileNotFound.txt (The system cannot find the file specified)", result);
+    }
+
+    @Test
+    public void ReadWords_WhenOneWord_ReturnsOneWord() {
+        String[] expected = {"One"};
+
+        String[] result = wordSearch.ReadWords("One");
+
+        assertTrue(Arrays.equals(expected, result));
     }
 }
