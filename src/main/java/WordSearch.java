@@ -39,6 +39,12 @@ public class WordSearch {
     public char[][] ReadGrid(String input) {
         char[][] grid = {{}};
 
+        String[] rows = input.split("\n");
+        if (rows.length == 2) {
+            char[][] a = {rows[1].toCharArray()};
+            return a;
+        }
+
         return grid;
     }
 }
