@@ -37,12 +37,21 @@ public class WordSearch {
     }
 
     public char[][] ReadGrid(String input) {
-        char[][] grid = {{}};
-
         String[] rows = input.split("\n");
-        if (rows.length == 2) {
-            char[][] a = {rows[1].toCharArray()};
+        if (rows.length < 2) {
+            char[][] a = {{}};
             return a;
+        }
+
+        // create square grid based on number of lines in input
+        char[][] grid = new char[rows.length - 1][rows.length - 1];
+
+        for (int row = 1; row < rows.length; row++) {
+            // remove commas from string
+            rows[row] = rows[row].replaceAll(",", "");
+
+            // convert each line to char array and add to the grid
+            grid[row - 1] = rows[row].toCharArray();
         }
 
         return grid;

@@ -147,4 +147,21 @@ public class WordSearchTest {
             }
         }
     }
+
+    @Test
+    public void ReadGrid_WhenThreeLinesTwoChar_ReturnsTwoByTwoGrid() {
+        char[][] expected = {{'B','A'},{'D','C'}};
+
+        char[][] result = wordSearch.ReadGrid("Orange\nB,A\nD,C");
+
+        if (expected.length != result.length) {
+            fail("Expected and result are of different lengths");
+        }
+        for (int row = 0; row < expected.length; row++) { // loop through rows of grid
+            boolean expectedEqualsResult = Arrays.equals(expected[row], result[row]);
+            if (!expectedEqualsResult) {
+                fail("Row " + row + " does not match.");
+            }
+        }
+    }
 }
