@@ -35,4 +35,10 @@ public class WordSearch {
 
         return words;
     }
+
+    public char[][] ReadGrid(String input) {
+        char[][] grid = {{}};
+
+        return grid;
+    }
 }

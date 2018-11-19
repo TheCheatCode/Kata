@@ -6,6 +6,7 @@ import java.util.Arrays;
 
 import static junit.framework.TestCase.assertEquals;
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 
 public class WordSearchTest {
     WordSearch wordSearch = new WordSearch();
@@ -111,5 +112,22 @@ public class WordSearchTest {
                 "K,Y,L,B,Q,Q,P,M,D,F,C,K,E,A,B");
 
         assertTrue(Arrays.equals(expected, result));
+    }
+
+    @Test
+    public void ReadGrid_WhenOneLine_ReturnsEmptyArray() {
+        char[][] expected = {{}};
+
+        char[][] result = wordSearch.ReadGrid("Orange");
+
+        if (expected.length != result.length) {
+            fail("Expected and result are of different lengths");
+        }
+        for (int row = 0; row < expected.length; row++) { // loop through rows of grid
+            boolean expectedEqualsResult = Arrays.equals(expected[row], result[row]);
+            if (!expectedEqualsResult) {
+                fail("Row " + row + " does not match.");
+            }
+        }
     }
 }
