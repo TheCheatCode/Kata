@@ -120,15 +120,7 @@ public class WordSearchTest {
 
         char[][] result = wordSearch.ReadGrid("Orange");
 
-        if (expected.length != result.length) {
-            fail("Expected and result are of different lengths");
-        }
-        for (int row = 0; row < expected.length; row++) { // loop through rows of grid
-            boolean expectedEqualsResult = Arrays.equals(expected[row], result[row]);
-            if (!expectedEqualsResult) {
-                fail("Row " + row + " does not match.");
-            }
-        }
+        CompareGrids(expected, result);
     }
 
     @Test
@@ -137,15 +129,7 @@ public class WordSearchTest {
 
         char[][] result = wordSearch.ReadGrid("Orange\nA");
 
-        if (expected.length != result.length) {
-            fail("Expected and result are of different lengths");
-        }
-        for (int row = 0; row < expected.length; row++) { // loop through rows of grid
-            boolean expectedEqualsResult = Arrays.equals(expected[row], result[row]);
-            if (!expectedEqualsResult) {
-                fail("Row " + row + " does not match.");
-            }
-        }
+        CompareGrids(expected, result);
     }
 
     @Test
@@ -154,6 +138,10 @@ public class WordSearchTest {
 
         char[][] result = wordSearch.ReadGrid("Orange\nB,A\nD,C");
 
+        CompareGrids(expected, result);
+    }
+
+    private void CompareGrids(char[][] expected, char[][] result) {
         if (expected.length != result.length) {
             fail("Expected and result are of different lengths");
         }
