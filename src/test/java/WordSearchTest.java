@@ -143,12 +143,14 @@ public class WordSearchTest {
 
     private void CompareGrids(char[][] expected, char[][] result) {
         if (expected.length != result.length) {
-            fail("Expected and result are of different lengths");
+            fail("Expected length: " + expected.length +
+                    ". Result length: " + result.length);
         }
         for (int row = 0; row < expected.length; row++) { // loop through rows of grid
             boolean expectedEqualsResult = Arrays.equals(expected[row], result[row]);
             if (!expectedEqualsResult) {
-                fail("Row " + row + " does not match.");
+                fail("Expected row " + row + ": " + new String(expected[row])
+                + ". Result row " + row + ": " + new String(result[row]));
             }
         }
     }

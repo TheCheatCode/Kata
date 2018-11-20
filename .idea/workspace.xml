@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a276a0d1-023a-490b-bcf6-e567f0658a81" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/WordSearchTest.java" afterPath="$PROJECT_DIR$/src/test/java/WordSearchTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,8 +24,8 @@
       <file leaf-file-name="WordSearchTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WordSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="151" column="13" lean-forward="true" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="13" />
+            <state relative-caret-position="-170">
+              <caret line="136" column="42" lean-forward="false" selection-start-line="136" selection-start-column="42" selection-end-line="136" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -669,15 +668,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordSearchTest - 2018.11.19 at 13h 41m 57s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearchTest - 2018.11.19 at 13h 46m 33s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearchTest - 2018.11.19 at 13h 47m 01s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WordSearchTest - 2018.11.19 at 13h 47m 47s.xml">
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
@@ -697,6 +687,15 @@
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="WordSearchTest - 2018.11.20 at 13h 38m 51s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.11.20 at 13h 40m 19s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.11.20 at 13h 51m 59s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.11.20 at 13h 52m 08s.xml">
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -918,8 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WordSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="151" column="13" lean-forward="true" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="13" />
+        <state relative-caret-position="-170">
+          <caret line="136" column="42" lean-forward="false" selection-start-line="136" selection-start-column="42" selection-end-line="136" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
