@@ -56,4 +56,8 @@ public class WordSearch {
 
         return grid;
     }
+
+    public String SearchGrid(String[] words, char[][] grid) {
+        return "A: (0,0)";
+    }
 }
