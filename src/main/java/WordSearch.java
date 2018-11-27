@@ -58,6 +58,10 @@ public class WordSearch {
     }
 
     public String SearchGrid(String[] words, char[][] grid) {
-        return "A: (0,0)";
+        String row = new String(grid[0]);
+
+        int location = row.indexOf(words[0]);
+
+        return words[0] + ": (" + location + ",0)";
     }
 }
