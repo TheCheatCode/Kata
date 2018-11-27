@@ -60,8 +60,21 @@ public class WordSearch {
     public String SearchGrid(String[] words, char[][] grid) {
         String row = new String(grid[0]);
 
-        int location = row.indexOf(words[0]);
+        int xLoc = row.indexOf(words[0]);
+        int yLoc = 0;
 
-        return words[0] + ": (" + location + ",0)";
+        String output = FormatString(xLoc, yLoc, words[0]);
+
+        return output;
+    }
+
+    private String FormatString(int xLoc, int yLoc, String word) {
+        String formattedResult = word + ": (" + xLoc + "," + yLoc + ")";
+
+        for (int i = xLoc + 1; i < word.length(); i++) {
+            formattedResult += ",(" + i + "," + yLoc + ")";
+        }
+
+        return formattedResult;
     }
 }

@@ -187,6 +187,17 @@ public class WordSearchTest {
         assertEquals(expected, result);
     }
 
+    @Test
+    public void SearchGrid_WhenTwoLetterTwoSquare_ReturnsLocation() {
+        String expected = "IT: (0,0),(1,0)";
+        String[] words = {"IT"};
+        char[][] grid = {{'I','T'},{'A','B'}};
+
+        String result = wordSearch.SearchGrid(words, grid);
+
+        assertEquals(expected, result);
+    }
+
     private void CompareGrids(char[][] expected, char[][] result) {
         if (expected.length != result.length) {
             fail("Expected length: " + expected.length +
