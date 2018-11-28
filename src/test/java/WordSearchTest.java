@@ -180,7 +180,7 @@ public class WordSearchTest {
     public void SearchGrid_WhenOneLetterThreeSquare_ReturnsLocation() {
         String expected = "M: (2,0)";
         String[] words = {"M"};
-        char[][] grid = {{'D','T','M'},{'A','B','C'}};
+        char[][] grid = {{'D','T','M'},{'A','B','C'},{'R','Q','P'}};
 
         String result = wordSearch.SearchGrid(words, grid);
 
