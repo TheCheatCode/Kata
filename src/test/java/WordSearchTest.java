@@ -198,6 +198,17 @@ public class WordSearchTest {
         assertEquals(expected, result);
     }
 
+    @Test
+    public void SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation() {
+        String expected = "CAT: (0,0),(1,0),(2,0)";
+        String[] words = {"CAT"};
+        char[][] grid = {{'C','A','T'},{'A','B','C'},{'D','E','F'}};
+
+        String result = wordSearch.SearchGrid(words, grid);
+
+        assertEquals(expected, result);
+    }
+
     private void CompareGrids(char[][] expected, char[][] result) {
         if (expected.length != result.length) {
             fail("Expected length: " + expected.length +
