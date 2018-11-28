@@ -58,10 +58,19 @@ public class WordSearch {
     }
 
     public String SearchGrid(String[] words, char[][] grid) {
-        String row = new String(grid[0]);
+        String row;
+        int xLoc = -1;
+        int yLoc = -1;
 
-        int xLoc = row.indexOf(words[0]);
-        int yLoc = 0;
+        int i = 0;
+        while ((xLoc == -1) && (i < grid.length)) { // xLoc will be -1 until word is found
+            row = new String(grid[i]);
+            xLoc = row.indexOf(words[0]);
+
+            yLoc = i;
+
+            i++;
+        }
 
         String output = FormatString(xLoc, yLoc, words[0]);
 
