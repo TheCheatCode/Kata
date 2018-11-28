@@ -59,20 +59,27 @@ public class WordSearch {
 
     public String SearchGrid(String[] words, char[][] grid) {
         String row;
+        String output = "";
         int xLoc = -1;
         int yLoc = -1;
 
         int i = 0;
-        while ((xLoc == -1) && (i < grid.length)) { // xLoc will be -1 until word is found
-            row = new String(grid[i]);
-            xLoc = row.indexOf(words[0]);
+        for (String word: words) {
+            while ((xLoc == -1) && (i < grid.length)) { // xLoc will be -1 until word is found
+                row = new String(grid[i]);
+                xLoc = row.indexOf(word);
 
-            yLoc = i;
+                yLoc = i;
 
-            i++;
+                i++;
+            }
+            if (!output.equals("")) {
+                output += "\n";
+            }
+            output += FormatString(xLoc, yLoc, word);
+            xLoc = -1;
+            yLoc = -1;
         }
-
-        String output = FormatString(xLoc, yLoc, words[0]);
 
         return output;
     }
@@ -80,8 +87,8 @@ public class WordSearch {
     private String FormatString(int xLoc, int yLoc, String word) {
         String formattedResult = word + ": (" + xLoc + "," + yLoc + ")";
 
-        for (int i = xLoc + 1; i < word.length(); i++) {
-            formattedResult += ",(" + i + "," + yLoc + ")";
+        for (int i = 1; i < word.length(); i++) {
+            formattedResult += ",(" + (xLoc + i) + "," + yLoc + ")";
         }
 
         return formattedResult;
