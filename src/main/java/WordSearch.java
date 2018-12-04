@@ -58,47 +58,11 @@ public class WordSearch {
     }
 
     public String SearchGrid(String[] words, char[][] grid) {
-        String output = "";
-
-        for (String word: words) {
-            if (!output.equals("")) {
-                output += "\n";
-            }
-
-            output += SearchEast(word, grid);
-        }
-
-        return output;
+        return null;
     }
 
     private String SearchEast(String word, char[][] grid) {
-        String row;
-        String result = "";
-        int xLoc = -1;
-        int yLoc = -1;
-
-        int i = 0;
-        while ((xLoc == -1) && (i < grid.length)) { // xLoc will be -1 until word is found
-            row = new String(grid[i]);
-            xLoc = row.indexOf(word);
-
-            yLoc = i;
-
-            i++;
-        }
-
-        result = FormatString(xLoc, yLoc, word);
-
-        return result;
+        return null;
     }
 
-    private String FormatString(int xLoc, int yLoc, String word) {
-        String formattedResult = word + ": (" + xLoc + "," + yLoc + ")";
-
-        for (int i = 1; i < word.length(); i++) {
-            formattedResult += ",(" + (xLoc + i) + "," + yLoc + ")";
-        }
-
-        return formattedResult;
-    }
 }

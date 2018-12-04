@@ -165,7 +165,7 @@ public class WordSearchTest {
         CompareGrids(expected, result);
     }
 
-    @Test
+    /*@Test
     public void SearchGrid_WhenOneLetterTwoSquare_ReturnsLocation() {
         String expected = "A: (0,0)";
         String[] words = {"A"};
@@ -229,7 +229,7 @@ public class WordSearchTest {
         String result = wordSearch.SearchGrid(words, grid);
 
         assertEquals(expected, result);
-    }
+    }*/
 
     private void CompareGrids(char[][] expected, char[][] result) {
         if (expected.length != result.length) {
