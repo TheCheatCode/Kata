@@ -25,8 +25,8 @@
       <file leaf-file-name="WordSearchTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WordSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="169" column="26" lean-forward="false" selection-start-line="169" selection-start-column="26" selection-end-line="169" selection-end-column="36" />
+            <state relative-caret-position="432">
+              <caret line="187" column="5" lean-forward="true" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
@@ -52,14 +52,12 @@
       <file leaf-file-name="WordSearch.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/WordSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="60" column="26" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+            <state relative-caret-position="325">
+              <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1566#1567#0" expanded="true" />
-                <element signature="e#1599#1600#0" expanded="true" />
-                <element signature="e#1660#1661#0" expanded="true" />
-                <element signature="e#1687#1688#0" expanded="true" />
+                <element signature="e#1773#1774#0" expanded="true" />
+                <element signature="e#1800#1801#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -688,15 +686,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordSearchTest - 2018.11.28 at 12h 17m 58s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearchTest - 2018.11.28 at 12h 20m 05s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearchTest - 2018.11.28 at 12h 22m 11s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WordSearchTest - 2018.11.28 at 12h 27m 25s.xml">
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
@@ -716,6 +705,15 @@
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="WordSearchTest - 2018.12.04 at 18h 06m 11s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.04 at 18h 07m 52s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.04 at 18h 08m 57s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.04 at 18h 10m 52s.xml">
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -826,10 +824,8 @@
           <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -865,10 +861,8 @@
           <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -904,10 +898,8 @@
           <caret line="71" column="43" lean-forward="false" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -943,10 +935,8 @@
           <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -982,10 +972,8 @@
           <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1021,10 +1009,8 @@
           <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1060,10 +1046,8 @@
           <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1106,10 +1090,8 @@
           <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1174,8 +1156,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WordSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="169" column="26" lean-forward="false" selection-start-line="169" selection-start-column="26" selection-end-line="169" selection-end-column="36" />
+        <state relative-caret-position="432">
+          <caret line="187" column="5" lean-forward="true" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
@@ -1199,14 +1181,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WordSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="60" column="26" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        <state relative-caret-position="325">
+          <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
           </folding>
         </state>
       </provider>

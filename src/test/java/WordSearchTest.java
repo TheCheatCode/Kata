@@ -176,7 +176,7 @@ public class WordSearchTest {
         assertEquals(expected, result);
     }
 
-    /*@Test
+    @Test
     public void SearchGrid_WhenOneLetterThreeSquare_ReturnsLocation() {
         String expected = "M: (2,0)";
         String[] words = {"M"};
@@ -187,7 +187,7 @@ public class WordSearchTest {
         assertEquals(expected, result);
     }
 
-    @Test
+    /*@Test
     public void SearchGrid_WhenTwoLetterTwoSquare_ReturnsLocation() {
         String expected = "IT: (0,0),(1,0)";
         String[] words = {"IT"};
