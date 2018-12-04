@@ -58,11 +58,21 @@ public class WordSearch {
     }
 
     public String SearchGrid(String[] words, char[][] grid) {
-        String output = "A: (0,0)";
+        String output = "";
+        int x = 0;
 
-        if (words[0].equals("M")) {
-            output = "M: (2,0)";
+        while (x < grid.length) {
+            String word = words[0];
+            char firstLetter = word.charAt(0);
+
+            if (firstLetter == grid[0][x]) {
+                output = words[0] + ": (" + x + ",0)";
+            }
+
+            x++;
         }
+
+
 
         return output;
     }
