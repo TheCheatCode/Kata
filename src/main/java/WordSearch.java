@@ -69,6 +69,7 @@ public class WordSearch {
 
                 if (firstLetter == grid[y][x]) {
                     output = words[0] + ": (" + x + "," + y + ")";
+                    output += SearchEast(x + 1, y, word.substring(1), grid);
                 }
 
                 x++;
@@ -83,8 +84,13 @@ public class WordSearch {
         return output;
     }
 
-    private String SearchEast(String word, char[][] grid) {
-        return null;
+    private String SearchEast(int x, int y, String remaining, char[][] grid) {
+
+        if (remaining.length() == 1) {
+            return ",(" + x + "," + y + ")";
+        }
+
+        return "";
     }
 
 }

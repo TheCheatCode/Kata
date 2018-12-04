@@ -209,7 +209,7 @@ public class WordSearchTest {
         assertEquals(expected, result);
     }
 
-    /*@Test
+    @Test
     public void SearchGrid_WhenTwoLetterTwoSquare_ReturnsLocation() {
         String expected = "IT: (0,0),(1,0)";
         String[] words = {"IT"};
@@ -220,7 +220,7 @@ public class WordSearchTest {
         assertEquals(expected, result);
     }
 
-    @Test
+    /*@Test
     public void SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation() {
         String expected = "CAT: (0,0),(1,0),(2,0)";
         String[] words = {"CAT"};
