@@ -60,17 +60,23 @@ public class WordSearch {
     public String SearchGrid(String[] words, char[][] grid) {
         String output = "";
         int x = 0;
+        int y = 0;
 
-        while (x < grid.length) {
-            String word = words[0];
-            char firstLetter = word.charAt(0);
+        while (y < grid.length) {
+            while (x < grid.length) {
+                String word = words[0];
+                char firstLetter = word.charAt(0);
 
-            if (firstLetter == grid[0][x]) {
-                output = words[0] + ": (" + x + ",0)";
+                if (firstLetter == grid[y][x]) {
+                    output = words[0] + ": (" + x + "," + y + ")";
+                }
+
+                x++;
             }
-
-            x++;
+            x = 0;
+            y++;
         }
+
 
 
 
