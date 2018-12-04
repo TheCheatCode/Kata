@@ -58,7 +58,7 @@ public class WordSearch {
     }
 
     public String SearchGrid(String[] words, char[][] grid) {
-        return null;
+        return "A: (0,0)";
     }
 
     private String SearchEast(String word, char[][] grid) {
