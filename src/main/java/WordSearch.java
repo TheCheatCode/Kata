@@ -106,7 +106,15 @@ public class WordSearch {
             return ",(" + x + "," + y + ")";
         }
 
-        return "";
+        // remove first character and send back to SearchEast with x + 1
+        remaining = remaining.substring(1);
+        String next = SearchEast(x, y, remaining, grid);
+
+        if (next.equals("")) {
+            return "";
+        }
+
+        return ",(" + x + "," + y + ")" + next;
     }
 
 }
