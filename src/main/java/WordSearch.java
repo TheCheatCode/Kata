@@ -96,6 +96,11 @@ public class WordSearch {
     }
 
     private String SearchEast(int x, int y, String remaining, char[][] grid) {
+        //Check if word can fit between first letter and rest of grid
+        if (grid.length - x < remaining.length()) {
+            return "";
+        }
+
         char current = remaining.charAt(0);
         x++;
 
