@@ -70,15 +70,15 @@ public class WordSearch {
                 if (firstLetter == grid[y][x]) {
                     String searchResponse = "";
                     // Check for one letter words (only used in test cases)
-                    if (words[0].length() > 1) {
+                    if (word.length() > 1) {
                         searchResponse = SearchEast(x, y, word.substring(1), grid);
                     } else {
-                        output = words[0] + ": (" + x + "," + y + ")";
+                        output = word + ": (" + x + "," + y + ")";
                     }
 
                     // Check if the rest of the word was found
                     if (!searchResponse.equals("")) {
-                        output = words[0] + ": (" + x + "," + y + ")";
+                        output = word + ": (" + x + "," + y + ")";
                         output += searchResponse;
                     }
                 }
