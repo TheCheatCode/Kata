@@ -68,8 +68,19 @@ public class WordSearch {
                 char firstLetter = word.charAt(0);
 
                 if (firstLetter == grid[y][x]) {
-                    output = words[0] + ": (" + x + "," + y + ")";
-                    output += SearchEast(x + 1, y, word.substring(1), grid);
+                    String searchResponse = "";
+                    // Check for one letter words (only used in test cases)
+                    if (words[0].length() > 1) {
+                        searchResponse = SearchEast(x, y, word.substring(1), grid);
+                    } else {
+                        output = words[0] + ": (" + x + "," + y + ")";
+                    }
+
+                    // Check if the rest of the word was found
+                    if (!searchResponse.equals("")) {
+                        output = words[0] + ": (" + x + "," + y + ")";
+                        output += searchResponse;
+                    }
                 }
 
                 x++;
@@ -85,7 +96,12 @@ public class WordSearch {
     }
 
     private String SearchEast(int x, int y, String remaining, char[][] grid) {
+        char current = remaining.charAt(0);
+        x++;
 
+        if (current != grid[y][x]) {
+            return "";
+        }
         if (remaining.length() == 1) {
             return ",(" + x + "," + y + ")";
         }
