@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a276a0d1-023a-490b-bcf6-e567f0658a81" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/WordSearch.java" afterPath="$PROJECT_DIR$/src/main/java/WordSearch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/WordSearchTest.java" afterPath="$PROJECT_DIR$/src/test/java/WordSearchTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -52,8 +51,8 @@
       <file leaf-file-name="WordSearch.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/WordSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="128" column="9" lean-forward="false" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
+            <state relative-caret-position="234">
+              <caret line="141" column="8" lean-forward="false" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -684,9 +683,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordSearchTest - 2018.12.08 at 05h 47m 23s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WordSearchTest - 2018.12.08 at 05h 50m 22s.xml">
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
@@ -708,11 +704,14 @@
     <history-entry file="WordSearchTest - 2018.12.08 at 06h 03m 03s.xml">
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordSearchTest_SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation - 2018.12.08 at 05h 47m 11s.xml">
-      <configuration name="WordSearchTest.SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation" configurationId="JUnit" />
+    <history-entry file="WordSearchTest - 2018.12.08 at 06h 04m 17s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordSearchTest_SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation - 2018.12.08 at 05h 50m 10s.xml">
-      <configuration name="WordSearchTest.SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation" configurationId="JUnit" />
+    <history-entry file="WordSearchTest - 2018.12.08 at 06h 06m 43s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.08 at 06h 07m 26s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1235,8 +1234,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WordSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="128" column="9" lean-forward="false" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
+        <state relative-caret-position="234">
+          <caret line="141" column="8" lean-forward="false" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
