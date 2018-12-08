@@ -137,6 +137,8 @@ public class WordSearch {
 
     private String SearchDirections(int x, int y, String remaining, char[][] grid, String direction) {
         char current = remaining.charAt(0);
+
+        // move along grid based on direction to search
         switch (direction) {
             case "East":
                 x++;
@@ -154,6 +156,7 @@ public class WordSearch {
                 return "";
         }
 
+        // return if letter isn't found at this grid location
         if (current != grid[y][x]) {
             return "";
         }
@@ -161,10 +164,11 @@ public class WordSearch {
             return ",(" + x + "," + y + ")";
         }
 
-        // remove first character and send back to SearchDirections with x + 1
+        // remove first character and send back to SearchDirections
         remaining = remaining.substring(1);
         String next = SearchDirections(x, y, remaining, grid, direction);
 
+        // pass empty string back up recursive calls if entire word isn't found
         if (next.equals("")) {
             return "";
         }
