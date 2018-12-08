@@ -102,10 +102,13 @@ public class WordSearch {
                 searchResponse += SearchEast(x, y, word.substring(1), grid);
             }
             if ((grid.length - y) > (word.length() - 1)) {
-                searchResponse += SearchNorth(x, y, word.substring(1), grid);
+                searchResponse += SearchSouth(x, y, word.substring(1), grid);
             }
             if (x >= (word.length() - 1)) {
                 searchResponse += SearchWest(x, y, word.substring(1), grid);
+            }
+            if (y >= (word.length() - 1)) {
+                searchResponse += SearchNorth(x, y, word.substring(1), grid);
             }
         } else {
             result += word + ": (" + x + "," + y + ")";
@@ -118,6 +121,28 @@ public class WordSearch {
         }
 
         return result;
+    }
+
+    private String SearchNorth(int x, int y, String remaining, char[][] grid) {
+        char current = remaining.charAt(0);
+        y--;
+
+        if (current != grid[y][x]) {
+            return "";
+        }
+        if (remaining.length() == 1) {
+            return ",(" + x + "," + y + ")";
+        }
+
+        // remove first character and send back to SearchNorth with y - 1
+        remaining = remaining.substring(1);
+        String next = SearchNorth(x, y, remaining, grid);
+
+        if (next.equals("")) {
+            return "";
+        }
+
+        return ",(" + x + "," + y + ")" + next;
     }
 
     private String SearchWest(int x, int y, String remaining, char[][] grid) {
@@ -142,7 +167,7 @@ public class WordSearch {
         return ",(" + x + "," + y + ")" + next;
     }
 
-    private String SearchNorth(int x, int y, String remaining, char[][] grid) {
+    private String SearchSouth(int x, int y, String remaining, char[][] grid) {
         char current = remaining.charAt(0);
         y++;
 
@@ -155,7 +180,7 @@ public class WordSearch {
 
         // remove first character and send back to SearchSouth with y + 1
         remaining = remaining.substring(1);
-        String next = SearchNorth(x, y, remaining, grid);
+        String next = SearchSouth(x, y, remaining, grid);
 
         if (next.equals("")) {
             return "";
