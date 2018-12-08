@@ -104,6 +104,9 @@ public class WordSearch {
             if ((grid.length - y) > (word.length() - 1)) {
                 searchResponse += SearchNorth(x, y, word.substring(1), grid);
             }
+            if (x >= (word.length() - 1)) {
+                searchResponse += SearchWest(x, y, word.substring(1), grid);
+            }
         } else {
             result += word + ": (" + x + "," + y + ")";
         }
@@ -115,6 +118,28 @@ public class WordSearch {
         }
 
         return result;
+    }
+
+    private String SearchWest(int x, int y, String remaining, char[][] grid) {
+        char current = remaining.charAt(0);
+        x--;
+
+        if (current != grid[y][x]) {
+            return "";
+        }
+        if (remaining.length() == 1) {
+            return ",(" + x + "," + y + ")";
+        }
+
+        // remove first character and send back to SearchWest with x - 1
+        remaining = remaining.substring(1);
+        String next = SearchWest(x, y, remaining, grid);
+
+        if (next.equals("")) {
+            return "";
+        }
+
+        return ",(" + x + "," + y + ")" + next;
     }
 
     private String SearchNorth(int x, int y, String remaining, char[][] grid) {
