@@ -352,6 +352,8 @@ public class WordSearchTest {
         assertEquals(expected, result);
     }
 
+    // test all 4 diagonals, then words in different directions, then add way to run tests and code
+
     private void CompareGrids(char[][] expected, char[][] result) {
         if (expected.length != result.length) {
             fail("Expected length: " + expected.length +

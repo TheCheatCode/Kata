@@ -74,7 +74,7 @@ public class WordSearch {
                     char firstLetter = word.charAt(0);
 
                     if (firstLetter == grid[y][x]) {
-                        output += SearchDirections(x, y, word, grid);
+                        output += DirectionsPresearch(x, y, word, grid);
                     }
 
                     x++;
@@ -82,6 +82,7 @@ public class WordSearch {
                 x = 0;
                 y++;
             }
+            // reset coordinates for next word
             x = 0;
             y = 0;
         }
@@ -92,23 +93,34 @@ public class WordSearch {
         return output;
     }
 
-    private String SearchDirections(int x, int y, String word, char[][] grid) {
+    private String DirectionsPresearch(int x, int y, String word, char[][] grid) {
         String result = "";
         String searchResponse = "";
+
         // Check for one letter words (only used in test cases)
         if (word.length() > 1) {
+            String direction = "";
+
             //Check if word can fit between first letter and rest of grid
             if ((grid.length - x) > (word.length() - 1)) {
-                searchResponse += SearchEast(x, y, word.substring(1), grid);
+                direction = "East";
+
+                searchResponse += SearchDirections(x, y, word.substring(1), grid, direction);
             }
             if ((grid.length - y) > (word.length() - 1)) {
-                searchResponse += SearchSouth(x, y, word.substring(1), grid);
+                direction = "South";
+
+                searchResponse += SearchDirections(x, y, word.substring(1), grid, direction);
             }
             if (x >= (word.length() - 1)) {
-                searchResponse += SearchWest(x, y, word.substring(1), grid);
+                direction = "West";
+
+                searchResponse += SearchDirections(x, y, word.substring(1), grid, direction);
             }
             if (y >= (word.length() - 1)) {
-                searchResponse += SearchNorth(x, y, word.substring(1), grid);
+                direction = "North";
+
+                searchResponse += SearchDirections(x, y, word.substring(1), grid, direction);
             }
         } else {
             result += word + ": (" + x + "," + y + ")";
@@ -123,9 +135,24 @@ public class WordSearch {
         return result;
     }
 
-    private String SearchNorth(int x, int y, String remaining, char[][] grid) {
+    private String SearchDirections(int x, int y, String remaining, char[][] grid, String direction) {
         char current = remaining.charAt(0);
-        y--;
+        switch (direction) {
+            case "East":
+                x++;
+                break;
+            case "South":
+                y++;
+                break;
+            case "West":
+                x--;
+                break;
+            case "North":
+                y--;
+                break;
+            default:
+                return "";
+        }
 
         if (current != grid[y][x]) {
             return "";
@@ -134,74 +161,9 @@ public class WordSearch {
             return ",(" + x + "," + y + ")";
         }
 
-        // remove first character and send back to SearchNorth with y - 1
+        // remove first character and send back to SearchDirections with x + 1
         remaining = remaining.substring(1);
-        String next = SearchNorth(x, y, remaining, grid);
-
-        if (next.equals("")) {
-            return "";
-        }
-
-        return ",(" + x + "," + y + ")" + next;
-    }
-
-    private String SearchWest(int x, int y, String remaining, char[][] grid) {
-        char current = remaining.charAt(0);
-        x--;
-
-        if (current != grid[y][x]) {
-            return "";
-        }
-        if (remaining.length() == 1) {
-            return ",(" + x + "," + y + ")";
-        }
-
-        // remove first character and send back to SearchWest with x - 1
-        remaining = remaining.substring(1);
-        String next = SearchWest(x, y, remaining, grid);
-
-        if (next.equals("")) {
-            return "";
-        }
-
-        return ",(" + x + "," + y + ")" + next;
-    }
-
-    private String SearchSouth(int x, int y, String remaining, char[][] grid) {
-        char current = remaining.charAt(0);
-        y++;
-
-        if (current != grid[y][x]) {
-            return "";
-        }
-        if (remaining.length() == 1) {
-            return ",(" + x + "," + y + ")";
-        }
-
-        // remove first character and send back to SearchSouth with y + 1
-        remaining = remaining.substring(1);
-        String next = SearchSouth(x, y, remaining, grid);
-
-        if (next.equals("")) {
-            return "";
-        }
-
-        return ",(" + x + "," + y + ")" + next;
-    }
-    private String SearchEast(int x, int y, String remaining, char[][] grid) {
-        char current = remaining.charAt(0);
-        x++;
-
-        if (current != grid[y][x]) {
-            return "";
-        }
-        if (remaining.length() == 1) {
-            return ",(" + x + "," + y + ")";
-        }
-
-        // remove first character and send back to SearchEast with x + 1
-        remaining = remaining.substring(1);
-        String next = SearchEast(x, y, remaining, grid);
+        String next = SearchDirections(x, y, remaining, grid, direction);
 
         if (next.equals("")) {
             return "";
