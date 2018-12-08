@@ -341,16 +341,16 @@ public class WordSearchTest {
         assertEquals(expected, result);
     }
 
-    /*@Test
-    public void SearchGrid_WhenMultipleTwoLetterWordsThreeSquare_ReturnsLocation() {
-        String expected = "IS: (1,0),(2,0)\nDO: (0,2),(1,2)";
-        String[] words = {"IS","DO"};
-        char[][] grid = {{'C','I','S'},{'A','B','C'},{'D','O','F'}};
+    @Test
+    public void SearchGrid_WhenMultipleThreeLetterThreeSquareNorth_ReturnsLocation() {
+        String expected = "CAB: (0,2),(0,1),(0,0)\nITS: (1,2),(1,1),(1,0)";
+        String[] words = {"CAB","ITS"};
+        char[][] grid = {{'B','S','S'},{'A','T','C'},{'C','I','F'}};
 
         String result = wordSearch.SearchGrid(words, grid);
 
         assertEquals(expected, result);
-    }*/
+    }
 
     private void CompareGrids(char[][] expected, char[][] result) {
         if (expected.length != result.length) {
