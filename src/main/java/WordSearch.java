@@ -62,31 +62,40 @@ public class WordSearch {
         int x = 0;
         int y = 0;
 
-        while (y < grid.length) {
-            while (x < grid.length) {
-                String word = words[0];
-                char firstLetter = word.charAt(0);
+        for (String word: words) {
+            // add newline before each word except first
+            if (!output.equals("")) {
+                output += "\n";
+            }
 
-                if (firstLetter == grid[y][x]) {
-                    String searchResponse = "";
-                    // Check for one letter words (only used in test cases)
-                    if (word.length() > 1) {
-                        searchResponse = SearchEast(x, y, word.substring(1), grid);
-                    } else {
-                        output = word + ": (" + x + "," + y + ")";
+            // loop through grid
+            while (y < grid.length) {
+                while (x < grid.length) {
+                    char firstLetter = word.charAt(0);
+
+                    if (firstLetter == grid[y][x]) {
+                        String searchResponse = "";
+                        // Check for one letter words (only used in test cases)
+                        if (word.length() > 1) {
+                            searchResponse = SearchEast(x, y, word.substring(1), grid);
+                        } else {
+                            output += word + ": (" + x + "," + y + ")";
+                        }
+
+                        // Check if the rest of the word was found
+                        if (!searchResponse.equals("")) {
+                            output += word + ": (" + x + "," + y + ")";
+                            output += searchResponse;
+                        }
                     }
 
-                    // Check if the rest of the word was found
-                    if (!searchResponse.equals("")) {
-                        output = word + ": (" + x + "," + y + ")";
-                        output += searchResponse;
-                    }
+                    x++;
                 }
-
-                x++;
+                x = 0;
+                y++;
             }
             x = 0;
-            y++;
+            y = 0;
         }
 
 
