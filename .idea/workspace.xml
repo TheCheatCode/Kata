@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="WordSearchTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordSearchTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WordSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="281" column="54" lean-forward="false" selection-start-line="281" selection-start-column="54" selection-end-line="281" selection-end-column="54" />
+            <state relative-caret-position="234">
+              <caret line="301" column="49" lean-forward="false" selection-start-line="301" selection-start-column="49" selection-end-line="301" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
@@ -49,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordSearch.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WordSearch.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/WordSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="116" column="54" lean-forward="true" selection-start-line="116" selection-start-column="54" selection-end-line="116" selection-end-column="54" />
+            <state relative-caret-position="399">
+              <caret line="128" column="9" lean-forward="false" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -362,8 +362,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ReadFileTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/OneLineFile.txt" />
         <option value="$PROJECT_DIR$/src/test/resources/MultiLineFile.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/WordSearch.java" />
         <option value="$PROJECT_DIR$/src/test/java/WordSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WordSearch.java" />
       </list>
     </option>
   </component>
@@ -684,15 +684,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordSearchTest - 2018.12.08 at 05h 34m 40s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearchTest - 2018.12.08 at 05h 39m 21s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearchTest - 2018.12.08 at 05h 43m 28s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WordSearchTest - 2018.12.08 at 05h 47m 23s.xml">
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
@@ -705,8 +696,17 @@
     <history-entry file="WordSearchTest - 2018.12.08 at 05h 55m 06s.xml">
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordSearchTest_SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation - 2018.12.08 at 05h 45m 30s.xml">
-      <configuration name="WordSearchTest.SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation" configurationId="JUnit" />
+    <history-entry file="WordSearchTest - 2018.12.08 at 05h 55m 55s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.08 at 06h 00m 53s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.08 at 06h 02m 13s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.08 at 06h 03m 03s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="WordSearchTest_SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation - 2018.12.08 at 05h 47m 11s.xml">
       <configuration name="WordSearchTest.SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation" configurationId="JUnit" />
@@ -1208,20 +1208,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="116" column="54" lean-forward="true" selection-start-line="116" selection-start-column="54" selection-end-line="116" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WordSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="281" column="54" lean-forward="false" selection-start-line="281" selection-start-column="54" selection-end-line="281" selection-end-column="54" />
+        <state relative-caret-position="234">
+          <caret line="301" column="49" lean-forward="false" selection-start-line="301" selection-start-column="49" selection-end-line="301" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
@@ -1239,6 +1229,16 @@
             <element signature="method#ReadGrid_WhenThreeLinesTwoChar_ReturnsTwoByTwoGrid#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenFullWordSearchInput_ReturnsGrid#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#CompareGrids#0;class#WordSearchTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WordSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="128" column="9" lean-forward="false" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

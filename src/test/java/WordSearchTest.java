@@ -297,6 +297,17 @@ public class WordSearchTest {
         assertEquals(expected, result);
     }
 
+    @Test
+    public void SearchGrid_WhenMultipleThreeLetterThreeSquareSouth_ReturnsLocation() {
+        String expected = "CAT: (0,0),(0,1),(0,2)\nAND: (1,0),(1,1),(1,2)";
+        String[] words = {"CAT","AND"};
+        char[][] grid = {{'C','A','F'},{'A','N','Z'},{'T','D','R'}};
+
+        String result = wordSearch.SearchGrid(words, grid);
+
+        assertEquals(expected, result);
+    }
+
     /*@Test
     public void SearchGrid_WhenTwoLetterTwoSquareSecondRow_ReturnsLocation() {
         String expected = "BE: (0,1),(1,1)";

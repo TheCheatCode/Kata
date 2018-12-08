@@ -124,8 +124,19 @@ public class WordSearch {
         if (current != grid[y][x]) {
             return "";
         }
+        if (remaining.length() == 1) {
+            return ",(" + x + "," + y + ")";
+        }
 
-        return ",(" + x + "," + y + ")";
+        // remove first character and send back to SearchSouth with y + 1
+        remaining = remaining.substring(1);
+        String next = SearchNorth(x, y, remaining, grid);
+
+        if (next.equals("")) {
+            return "";
+        }
+
+        return ",(" + x + "," + y + ")" + next;
     }
     private String SearchEast(int x, int y, String remaining, char[][] grid) {
         //Check if word can fit between first letter and rest of grid
