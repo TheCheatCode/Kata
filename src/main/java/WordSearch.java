@@ -97,7 +97,8 @@ public class WordSearch {
         String searchResponse = "";
         // Check for one letter words (only used in test cases)
         if (word.length() > 1) {
-            searchResponse = SearchEast(x, y, word.substring(1), grid);
+            searchResponse += SearchEast(x, y, word.substring(1), grid);
+            searchResponse += SearchNorth(x, y, word.substring(1), grid);
         } else {
             result += word + ": (" + x + "," + y + ")";
         }
@@ -111,9 +112,24 @@ public class WordSearch {
         return result;
     }
 
+    private String SearchNorth(int x, int y, String remaining, char[][] grid) {
+        //Check if word can fit between first letter and rest of grid
+        if ((grid.length - y) <= remaining.length()) {
+            return "";
+        }
+
+        char current = remaining.charAt(0);
+        y++;
+
+        if (current != grid[y][x]) {
+            return "";
+        }
+
+        return ",(" + x + "," + y + ")";
+    }
     private String SearchEast(int x, int y, String remaining, char[][] grid) {
         //Check if word can fit between first letter and rest of grid
-        if (grid.length - x < remaining.length()) {
+        if ((grid.length - x) <= remaining.length()) {
             return "";
         }
 

@@ -279,7 +279,18 @@ public class WordSearchTest {
     public void SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation() {
         String expected = "UP: (2,2),(3,2)\nIS: (0,3),(1,3)\nIF: (2,0),(3,0)";
         String[] words = {"UP","IS","IF"};
-        char[][] grid = {{'U','M','I','F'},{'L','L','S','H'},{'H','S','U','P'},{'I','S','J','S'}};
+        char[][] grid = {{'U','M','I','F'},{'L','L','J','H'},{'H','S','U','P'},{'I','S','J','S'}};
+
+        String result = wordSearch.SearchGrid(words, grid);
+
+        assertEquals(expected, result);
+    }
+
+    @Test
+    public void SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation() {
+        String expected = "AB: (1,0),(1,1)";
+        String[] words = {"AB"};
+        char[][] grid = {{'C','A'},{'T','B'}};
 
         String result = wordSearch.SearchGrid(words, grid);
 
