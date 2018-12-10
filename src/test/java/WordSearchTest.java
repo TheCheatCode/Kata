@@ -232,10 +232,10 @@ public class WordSearchTest {
     }
 
     @Test
-    public void SearchGrid_WhenTwoLetterTwoSquareFirstLetterBeforeWord_ReturnsLocation() {
-        String expected = "AB: (0,1),(1,1)";
+    public void SearchGrid_WhenTwoLetterThreeSquareFirstLetterBeforeWord_ReturnsLocation() {
+        String expected = "AB: (1,2),(2,2)";
         String[] words = {"AB"};
-        char[][] grid = {{'A','T'},{'A','B'}};
+        char[][] grid = {{'A','T','Z'},{'X','Y','Z'},{'N','A','B'}};
 
         String result = wordSearch.SearchGrid(words, grid);
 
@@ -346,6 +346,17 @@ public class WordSearchTest {
         String expected = "CAB: (0,2),(0,1),(0,0)\nITS: (1,2),(1,1),(1,0)";
         String[] words = {"CAB","ITS"};
         char[][] grid = {{'B','S','S'},{'A','T','C'},{'C','I','F'}};
+
+        String result = wordSearch.SearchGrid(words, grid);
+
+        assertEquals(expected, result);
+    }
+
+    @Test
+    public void SearchGrid_WhenMultipleThreeLetterFourSquareSouthEast_ReturnsLocation() {
+        String expected = "CAN: (1,0),(2,1),(3,2)\nTIM: (0,1),(1,2),(2,3)";
+        String[] words = {"CAN","TIM"};
+        char[][] grid = {{'B','C','S','R'},{'T','E','A','G'},{'C','I','F','N'},{'N','H','M','L'}};
 
         String result = wordSearch.SearchGrid(words, grid);
 
