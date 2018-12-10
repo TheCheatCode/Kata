@@ -46,12 +46,12 @@ public class WordSearchTest {
     ClassLoader classLoader = getClass().getClassLoader();
 
     @Test
-    public void ReadFile_WhenEmptyFile_ReturnsEmptyString() {
+    public void ReadFile_WhenEmptyFile_ReturnsErrorMessage() {
         File file = new File(classLoader.getResource("EmptyFile.txt").getFile());
 
         String result = wordSearch.ReadFile(file.getAbsolutePath());
 
-        assertEquals("", result);
+        assertEquals("Specified file is empty.", result);
     }
 
     @Test

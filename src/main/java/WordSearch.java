@@ -46,7 +46,7 @@ public class WordSearch {
         }
 
         if (result == null) {
-            result = "";
+            result = "Specified file is empty.";
         }
 
         return result;
