@@ -60,7 +60,16 @@ public class WordSearchTest {
 
         String result = wordSearch.ReadFile(file.getAbsolutePath());
 
-        assertEquals("Specified File does not contain a grid.", result);
+        assertEquals("Specified File does not contain words and a grid.", result);
+    }
+
+    @Test
+    public void ReadFile_WhenTwoLineFile_ReturnsErrorMessage() {
+        File file = new File(classLoader.getResource("TwoLineFile.txt").getFile());
+
+        String result = wordSearch.ReadFile(file.getAbsolutePath());
+
+        assertEquals("Specified File does not contain words and a grid.", result);
     }
 
     @Test

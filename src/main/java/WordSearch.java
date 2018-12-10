@@ -49,7 +49,11 @@ public class WordSearch {
             return "Specified file is empty.";
         }
         if (!result.contains("\n")) {
-            return "Specified File does not contain a grid.";
+            return "Specified File does not contain words and a grid.";
+        }
+        String thirdLineCheck = result.substring(result.indexOf("\n") + 1);
+        if (!thirdLineCheck.contains("\n")) {
+            return "Specified File does not contain words and a grid.";
         }
 
         return result;
