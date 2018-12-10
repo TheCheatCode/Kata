@@ -16,10 +16,14 @@ public class WordSearch {
             userInput = reader.nextLine();
 
             String rawText = wordSearch.ReadFile(userInput);
-            String[] words = wordSearch.ReadWords(rawText);
-            char[][] grid = wordSearch.ReadGrid(rawText);
+            if (rawText.contains("\n")) {
+                String[] words = wordSearch.ReadWords(rawText);
+                char[][] grid = wordSearch.ReadGrid(rawText);
 
-            output = wordSearch.SearchGrid(words, grid);
+                output = wordSearch.SearchGrid(words, grid);
+            } else {
+                output = rawText;
+            }
 
             System.out.println(output);
         }
