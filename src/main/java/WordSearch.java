@@ -46,7 +46,10 @@ public class WordSearch {
         }
 
         if (result == null) {
-            result = "Specified file is empty.";
+            return "Specified file is empty.";
+        }
+        if (!result.contains("\n")) {
+            return "Specified File does not contain a grid.";
         }
 
         return result;

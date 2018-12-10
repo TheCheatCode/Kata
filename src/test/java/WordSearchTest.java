@@ -55,12 +55,12 @@ public class WordSearchTest {
     }
 
     @Test
-    public void ReadFile_WhenOneLineFile_ReturnsContent() {
+    public void ReadFile_WhenOneLineFile_ReturnsErrorMessage() {
         File file = new File(classLoader.getResource("OneLineFile.txt").getFile());
 
         String result = wordSearch.ReadFile(file.getAbsolutePath());
 
-        assertEquals("One line example.", result);
+        assertEquals("Specified File does not contain a grid.", result);
     }
 
     @Test
