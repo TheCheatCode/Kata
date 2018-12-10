@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a276a0d1-023a-490b-bcf6-e567f0658a81" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/built.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties.lock" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/WordSearch.class" afterPath="$PROJECT_DIR$/out/production/classes/WordSearch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/classes/WordSearchTest.class" afterPath="$PROJECT_DIR$/out/test/classes/WordSearchTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/WordSearch.java" afterPath="$PROJECT_DIR$/src/main/java/WordSearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/WordSearchTest.java" afterPath="$PROJECT_DIR$/src/test/java/WordSearchTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,36 +27,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="WordSearchTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordSearchTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WordSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="414" column="39" lean-forward="false" selection-start-line="414" selection-start-column="39" selection-end-line="414" selection-end-column="39" />
+            <state relative-caret-position="5379">
+              <caret line="401" column="64" lean-forward="false" selection-start-line="401" selection-start-column="64" selection-end-line="401" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
-                <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
                 <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
-                <element signature="method#ReadFile_WhenNonTxtFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
                 <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
                 <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
                 <element signature="method#ReadWords_WhenMultipleWords_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
                 <element signature="method#ReadWords_WhenMultiWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
                 <element signature="method#ReadWords_WhenOneWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#ReadWords_WhenFullWordSearchInput_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
                 <element signature="method#ReadGrid_WhenOneLine_ReturnsEmptyArray#0;class#WordSearchTest#0" expanded="false" />
                 <element signature="method#ReadGrid_WhenTwoLinesOneChar_ReturnsOneByOneGrid#0;class#WordSearchTest#0" expanded="false" />
                 <element signature="method#ReadGrid_WhenThreeLinesTwoChar_ReturnsTwoByTwoGrid#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#ReadGrid_WhenFullWordSearchInput_ReturnsGrid#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenOneLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenOneLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenTwoLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenTwoLetterTwoSquareLastRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterBeforeWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterAfterWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenThreeLetterThreeSquareFirstLetterLastColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenTwoLetterTwoSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenTwoLetterTwoSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#SearchGrid_WhenFullWordSearch_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
                 <element signature="method#CompareGrids#0;class#WordSearchTest#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordSearch.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WordSearch.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/WordSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="187" column="19" lean-forward="false" selection-start-line="187" selection-start-column="19" selection-end-line="187" selection-end-column="19" />
+            <state relative-caret-position="330">
+              <caret line="25" column="5" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -398,6 +424,49 @@
             <path>
               <item name="wordsearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Kata" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kata" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kata" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kata" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kata" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kata" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kata" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kata" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -467,7 +536,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WordSearchTest">
+  <component name="RunManager" selected="Application.WordSearch">
+    <configuration name="WordSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="WordSearch" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="wordsearch_main" />
+      <envs />
+    </configuration>
     <configuration name="WordSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="wordsearch_test" />
@@ -477,26 +560,6 @@
       <option name="MAIN_CLASS_NAME" value="WordSearchTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="WordSearchTest.ReadWords_WhenOneWord_ReturnsOneWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="wordsearch_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WordSearchTest" />
-      <option name="METHOD_NAME" value="ReadWords_WhenOneWord_ReturnsOneWord" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -650,18 +713,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.WordSearchTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.WordSearchTest.ReadWords_WhenOneWord_ReturnsOneWord" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.WordSearchTest.SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.WordSearchTest.SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.WordSearchTest.SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.WordSearchTest.SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.WordSearchTest.SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.WordSearchTest.SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation" />
+      <item index="4" class="java.lang.String" itemvalue="Application.WordSearch" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.WordSearchTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.WordSearchTest.SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.WordSearchTest.SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.WordSearchTest.SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.WordSearchTest.ReadWords_WhenOneWord_ReturnsOneWord" />
+        <item index="0" class="java.lang.String" itemvalue="Application.WordSearch" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.WordSearchTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.WordSearchTest.SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.WordSearchTest.SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.WordSearchTest.SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation" />
       </list>
     </recent_temporary>
   </component>
@@ -682,31 +745,31 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordSearchTest - 2018.12.10 at 13h 01m 44s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearchTest - 2018.12.10 at 13h 02m 24s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearchTest - 2018.12.10 at 13h 04m 54s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearchTest - 2018.12.10 at 13h 06m 06s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearchTest - 2018.12.10 at 13h 09m 24s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearchTest - 2018.12.10 at 13h 10m 45s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearchTest - 2018.12.10 at 13h 11m 43s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WordSearchTest - 2018.12.10 at 13h 14m 07s.xml">
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="WordSearchTest - 2018.12.10 at 13h 15m 03s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.10 at 13h 24m 43s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.10 at 13h 43m 12s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.10 at 14h 12m 43s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.10 at 14h 13m 12s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.10 at 14h 13m 43s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.10 at 14h 14m 04s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.10 at 14h 14m 59s.xml">
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="WordSearchTest_SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation - 2018.12.10 at 13h 14m 03s.xml">
@@ -724,7 +787,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -732,14 +794,14 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5021482" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49785176" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.49785176" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.301826" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.301826" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -797,18 +859,39 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenNonTxtFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultipleWords_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultiWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadWords_WhenFullWordSearchInput_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenOneLine_ReturnsEmptyArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenTwoLinesOneChar_ReturnsOneByOneGrid#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenThreeLinesTwoChar_ReturnsTwoByTwoGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadGrid_WhenFullWordSearchInput_ReturnsGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareLastRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterBeforeWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterAfterWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquareFirstLetterLastColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenFullWordSearch_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#CompareGrids#0;class#WordSearchTest#0" expanded="false" />
           </folding>
         </state>
@@ -830,18 +913,39 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenNonTxtFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultipleWords_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultiWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadWords_WhenFullWordSearchInput_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenOneLine_ReturnsEmptyArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenTwoLinesOneChar_ReturnsOneByOneGrid#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenThreeLinesTwoChar_ReturnsTwoByTwoGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadGrid_WhenFullWordSearchInput_ReturnsGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareLastRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterBeforeWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterAfterWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquareFirstLetterLastColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenFullWordSearch_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#CompareGrids#0;class#WordSearchTest#0" expanded="false" />
           </folding>
         </state>
@@ -863,18 +967,39 @@
           <caret line="270" column="68" lean-forward="false" selection-start-line="270" selection-start-column="68" selection-end-line="270" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenNonTxtFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultipleWords_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultiWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadWords_WhenFullWordSearchInput_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenOneLine_ReturnsEmptyArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenTwoLinesOneChar_ReturnsOneByOneGrid#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenThreeLinesTwoChar_ReturnsTwoByTwoGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadGrid_WhenFullWordSearchInput_ReturnsGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareLastRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterBeforeWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterAfterWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquareFirstLetterLastColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenFullWordSearch_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#CompareGrids#0;class#WordSearchTest#0" expanded="false" />
           </folding>
         </state>
@@ -896,18 +1021,39 @@
           <caret line="270" column="68" lean-forward="true" selection-start-line="270" selection-start-column="68" selection-end-line="270" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenNonTxtFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultipleWords_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultiWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadWords_WhenFullWordSearchInput_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenOneLine_ReturnsEmptyArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenTwoLinesOneChar_ReturnsOneByOneGrid#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenThreeLinesTwoChar_ReturnsTwoByTwoGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadGrid_WhenFullWordSearchInput_ReturnsGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareLastRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterBeforeWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterAfterWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquareFirstLetterLastColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenFullWordSearch_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#CompareGrids#0;class#WordSearchTest#0" expanded="false" />
           </folding>
         </state>
@@ -929,18 +1075,39 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenNonTxtFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultipleWords_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultiWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadWords_WhenFullWordSearchInput_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenOneLine_ReturnsEmptyArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenTwoLinesOneChar_ReturnsOneByOneGrid#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenThreeLinesTwoChar_ReturnsTwoByTwoGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadGrid_WhenFullWordSearchInput_ReturnsGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareLastRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterBeforeWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterAfterWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquareFirstLetterLastColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenFullWordSearch_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#CompareGrids#0;class#WordSearchTest#0" expanded="false" />
           </folding>
         </state>
@@ -962,18 +1129,39 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenNonTxtFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultipleWords_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultiWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadWords_WhenFullWordSearchInput_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenOneLine_ReturnsEmptyArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenTwoLinesOneChar_ReturnsOneByOneGrid#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenThreeLinesTwoChar_ReturnsTwoByTwoGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadGrid_WhenFullWordSearchInput_ReturnsGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareLastRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterBeforeWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterAfterWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquareFirstLetterLastColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenFullWordSearch_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#CompareGrids#0;class#WordSearchTest#0" expanded="false" />
           </folding>
         </state>
@@ -995,18 +1183,39 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenNonTxtFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultipleWords_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultiWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadWords_WhenFullWordSearchInput_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenOneLine_ReturnsEmptyArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenTwoLinesOneChar_ReturnsOneByOneGrid#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenThreeLinesTwoChar_ReturnsTwoByTwoGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadGrid_WhenFullWordSearchInput_ReturnsGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareLastRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterBeforeWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterAfterWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquareFirstLetterLastColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenFullWordSearch_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#CompareGrids#0;class#WordSearchTest#0" expanded="false" />
           </folding>
         </state>
@@ -1028,18 +1237,39 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenNonTxtFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultipleWords_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultiWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadWords_WhenFullWordSearchInput_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenOneLine_ReturnsEmptyArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenTwoLinesOneChar_ReturnsOneByOneGrid#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenThreeLinesTwoChar_ReturnsTwoByTwoGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadGrid_WhenFullWordSearchInput_ReturnsGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareLastRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterBeforeWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterAfterWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquareFirstLetterLastColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenFullWordSearch_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#CompareGrids#0;class#WordSearchTest#0" expanded="false" />
           </folding>
         </state>
@@ -1061,18 +1291,39 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenNonTxtFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultipleWords_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultiWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadWords_WhenFullWordSearchInput_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenOneLine_ReturnsEmptyArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenTwoLinesOneChar_ReturnsOneByOneGrid#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenThreeLinesTwoChar_ReturnsTwoByTwoGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadGrid_WhenFullWordSearchInput_ReturnsGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareLastRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterBeforeWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterAfterWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquareFirstLetterLastColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenFullWordSearch_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#CompareGrids#0;class#WordSearchTest#0" expanded="false" />
           </folding>
         </state>
@@ -1094,18 +1345,39 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenNonTxtFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultipleWords_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultiWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadWords_WhenFullWordSearchInput_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenOneLine_ReturnsEmptyArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenTwoLinesOneChar_ReturnsOneByOneGrid#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenThreeLinesTwoChar_ReturnsTwoByTwoGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadGrid_WhenFullWordSearchInput_ReturnsGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareLastRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterBeforeWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterAfterWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquareFirstLetterLastColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenFullWordSearch_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#CompareGrids#0;class#WordSearchTest#0" expanded="false" />
           </folding>
         </state>
@@ -1127,18 +1399,39 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenNonTxtFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultipleWords_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultiWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadWords_WhenFullWordSearchInput_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenOneLine_ReturnsEmptyArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenTwoLinesOneChar_ReturnsOneByOneGrid#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenThreeLinesTwoChar_ReturnsTwoByTwoGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadGrid_WhenFullWordSearchInput_ReturnsGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareLastRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterBeforeWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterAfterWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquareFirstLetterLastColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenFullWordSearch_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#CompareGrids#0;class#WordSearchTest#0" expanded="false" />
           </folding>
         </state>
@@ -1160,18 +1453,39 @@
           <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenNonTxtFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultipleWords_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultiWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadWords_WhenFullWordSearchInput_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenOneLine_ReturnsEmptyArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenTwoLinesOneChar_ReturnsOneByOneGrid#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenThreeLinesTwoChar_ReturnsTwoByTwoGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadGrid_WhenFullWordSearchInput_ReturnsGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareLastRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterBeforeWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterAfterWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquareFirstLetterLastColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenFullWordSearch_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#CompareGrids#0;class#WordSearchTest#0" expanded="false" />
           </folding>
         </state>
@@ -1200,18 +1514,39 @@
           <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenNonTxtFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultipleWords_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultiWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadWords_WhenFullWordSearchInput_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenOneLine_ReturnsEmptyArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenTwoLinesOneChar_ReturnsOneByOneGrid#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenThreeLinesTwoChar_ReturnsTwoByTwoGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadGrid_WhenFullWordSearchInput_ReturnsGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareLastRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterBeforeWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterAfterWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquareFirstLetterLastColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenFullWordSearch_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#CompareGrids#0;class#WordSearchTest#0" expanded="false" />
           </folding>
         </state>
@@ -1250,35 +1585,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="187" column="19" lean-forward="false" selection-start-line="187" selection-start-column="19" selection-end-line="187" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WordSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="414" column="39" lean-forward="false" selection-start-line="414" selection-start-column="39" selection-end-line="414" selection-end-column="39" />
+        <state relative-caret-position="5379">
+          <caret line="401" column="64" lean-forward="false" selection-start-line="401" selection-start-column="64" selection-end-line="401" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
-            <element signature="method#ReadFile_WhenNonTxtFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultipleWords_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenMultiWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWordTwoLine_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadWords_WhenFullWordSearchInput_ReturnsWordArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenOneLine_ReturnsEmptyArray#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenTwoLinesOneChar_ReturnsOneByOneGrid#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadGrid_WhenThreeLinesTwoChar_ReturnsTwoByTwoGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadGrid_WhenFullWordSearchInput_ReturnsGrid#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenOneLetterThreeSquareMiddleRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareLastRow_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterBeforeWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterThreeSquareFirstLetterAfterWord_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenThreeLetterThreeSquareFirstLetterLastColumn_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareSouth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenTwoLetterTwoSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterThreeSquareNorth_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareSouthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthWest_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenMultipleThreeLetterFourSquareNorthEast_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#SearchGrid_WhenFullWordSearch_ReturnsLocation#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#CompareGrids#0;class#WordSearchTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WordSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

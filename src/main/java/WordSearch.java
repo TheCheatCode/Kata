@@ -1,7 +1,30 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.util.Scanner;
 
 public class WordSearch {
+    public static void main(String[] args){
+        WordSearch wordSearch = new WordSearch();
+        String userInput = " ";
+        Scanner reader = new Scanner(System.in);
+        String output = "";
+
+        while (!(userInput.equals("") || userInput.equalsIgnoreCase("exit"))) {
+            System.out.println("Exit by typing \"exit\".");
+            System.out.println("Enter a file path to Word Search input, must end with \".txt\": ");
+
+            userInput = reader.nextLine();
+
+            String rawText = wordSearch.ReadFile(userInput);
+            String[] words = wordSearch.ReadWords(rawText);
+            char[][] grid = wordSearch.ReadGrid(rawText);
+
+            output = wordSearch.SearchGrid(words, grid);
+
+            System.out.println(output);
+        }
+    }
+
     public String ReadFile(String fileName) {
         String result;
         if (!fileName.endsWith("txt")) {
