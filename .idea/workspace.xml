@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a276a0d1-023a-490b-bcf6-e567f0658a81" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/WordSearch.class" afterPath="$PROJECT_DIR$/out/production/classes/WordSearch.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/WordSearch.java" afterPath="$PROJECT_DIR$/src/main/java/WordSearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/WordSearchTest.java" afterPath="$PROJECT_DIR$/src/test/java/WordSearchTest.java" />
     </list>
@@ -27,8 +25,8 @@
       <file leaf-file-name="WordSearchTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WordSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="235" column="39" lean-forward="false" selection-start-line="235" selection-start-column="39" selection-end-line="235" selection-end-column="39" />
+            <state relative-caret-position="366">
+              <caret line="374" column="5" lean-forward="true" selection-start-line="374" selection-start-column="5" selection-end-line="374" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />
@@ -55,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/WordSearch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="164" column="22" lean-forward="false" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
+              <caret line="173" column="22" lean-forward="false" selection-start-line="173" selection-start-column="22" selection-end-line="173" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -364,8 +362,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ReadFileTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/OneLineFile.txt" />
         <option value="$PROJECT_DIR$/src/test/resources/MultiLineFile.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/WordSearch.java" />
         <option value="$PROJECT_DIR$/src/test/java/WordSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WordSearch.java" />
       </list>
     </option>
   </component>
@@ -686,18 +684,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordSearchTest - 2018.12.08 at 06h 26m 43s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearchTest - 2018.12.08 at 06h 31m 40s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearchTest - 2018.12.08 at 06h 32m 12s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearchTest - 2018.12.08 at 14h 35m 46s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WordSearchTest - 2018.12.08 at 14h 37m 17s.xml">
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
@@ -714,6 +700,18 @@
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="WordSearchTest - 2018.12.10 at 12h 54m 46s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.10 at 12h 55m 14s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.10 at 12h 59m 21s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.10 at 13h 01m 44s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.10 at 13h 02m 24s.xml">
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1283,7 +1281,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/WordSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="164" column="22" lean-forward="false" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
+          <caret line="173" column="22" lean-forward="false" selection-start-line="173" selection-start-column="22" selection-end-line="173" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1292,8 +1290,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WordSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="235" column="39" lean-forward="false" selection-start-line="235" selection-start-column="39" selection-end-line="235" selection-end-column="39" />
+        <state relative-caret-position="366">
+          <caret line="374" column="5" lean-forward="true" selection-start-line="374" selection-start-column="5" selection-end-line="374" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#ReadFile_WhenEmptyFile_ReturnsEmptyString#0;class#WordSearchTest#0" expanded="false" />

@@ -118,6 +118,11 @@ public class WordSearch {
 
                     searchResponse += SearchDirections(x, y, word.substring(1), grid, direction);
                 }
+                if (x >= (word.length() - 1)) {
+                    direction = "Southwest";
+
+                    searchResponse += SearchDirections(x, y, word.substring(1), grid, direction);
+                }
             }
             if (x >= (word.length() - 1)) {
                 direction = "West";
@@ -161,6 +166,10 @@ public class WordSearch {
                 break;
             case "Southeast":
                 x++;
+                y++;
+                break;
+            case "Southwest":
+                x--;
                 y++;
                 break;
             default:

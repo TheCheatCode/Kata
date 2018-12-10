@@ -363,6 +363,17 @@ public class WordSearchTest {
         assertEquals(expected, result);
     }
 
+    @Test
+    public void SearchGrid_WhenMultipleThreeLetterFourSquareSouthWest_ReturnsLocation() {
+        String expected = "MAN: (3,0),(2,1),(1,2)\nDOG: (3,1),(2,2),(1,3)";
+        String[] words = {"MAN","DOG"};
+        char[][] grid = {{'B','C','S','M'},{'T','E','A','D'},{'C','N','O','N'},{'N','G','M','L'}};
+
+        String result = wordSearch.SearchGrid(words, grid);
+
+        assertEquals(expected, result);
+    }
+
     // test all 4 diagonals, then words in different directions, then add way to run tests and code
 
     private void CompareGrids(char[][] expected, char[][] result) {
