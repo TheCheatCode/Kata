@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a276a0d1-023a-490b-bcf6-e567f0658a81" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/classes/WordSearchTest.class" afterPath="$PROJECT_DIR$/out/test/classes/WordSearchTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/WordSearch.java" afterPath="$PROJECT_DIR$/src/main/java/WordSearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/WordSearchTest.java" afterPath="$PROJECT_DIR$/src/test/java/WordSearchTest.java" />
     </list>
@@ -27,10 +25,12 @@
       <file leaf-file-name="WordSearchTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WordSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="53" column="46" lean-forward="false" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+            <state relative-caret-position="402">
+              <caret line="78" column="21" lean-forward="true" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#ReadFile_WhenEmptyFile_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
+                <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
                 <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
                 <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
                 <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
@@ -74,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/WordSearch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+              <caret line="30" column="49" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -699,15 +699,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordSearchTest - 2018.12.10 at 13h 43m 12s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearchTest - 2018.12.10 at 14h 12m 43s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearchTest - 2018.12.10 at 14h 13m 12s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WordSearchTest - 2018.12.10 at 14h 13m 43s.xml">
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
@@ -727,6 +718,15 @@
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="WordSearchTest - 2018.12.10 at 14h 40m 43s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.10 at 14h 40m 54s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.10 at 14h 42m 52s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordSearchTest - 2018.12.10 at 14h 43m 21s.xml">
       <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -751,7 +751,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5021482" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49785176" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49785176" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -814,6 +814,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#ReadFile_WhenEmptyFile_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
@@ -868,6 +870,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#ReadFile_WhenEmptyFile_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
@@ -922,6 +926,8 @@
           <caret line="270" column="68" lean-forward="false" selection-start-line="270" selection-start-column="68" selection-end-line="270" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#ReadFile_WhenEmptyFile_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
@@ -976,6 +982,8 @@
           <caret line="270" column="68" lean-forward="true" selection-start-line="270" selection-start-column="68" selection-end-line="270" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#ReadFile_WhenEmptyFile_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
@@ -1030,6 +1038,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#ReadFile_WhenEmptyFile_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
@@ -1084,6 +1094,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#ReadFile_WhenEmptyFile_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
@@ -1138,6 +1150,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#ReadFile_WhenEmptyFile_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
@@ -1192,6 +1206,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#ReadFile_WhenEmptyFile_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
@@ -1246,6 +1262,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#ReadFile_WhenEmptyFile_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
@@ -1300,6 +1318,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#ReadFile_WhenEmptyFile_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
@@ -1354,6 +1374,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#ReadFile_WhenEmptyFile_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
@@ -1408,6 +1430,8 @@
           <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#ReadFile_WhenEmptyFile_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
@@ -1469,6 +1493,8 @@
           <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#ReadFile_WhenEmptyFile_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
@@ -1542,10 +1568,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WordSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="53" column="46" lean-forward="false" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+        <state relative-caret-position="402">
+          <caret line="78" column="21" lean-forward="true" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#ReadFile_WhenEmptyFile_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
+            <element signature="method#ReadFile_WhenOneLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenMultiLineFile_ReturnsContent#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadFile_WhenFileNotFound_ReturnsErrorMessage#0;class#WordSearchTest#0" expanded="false" />
             <element signature="method#ReadWords_WhenOneWord_ReturnsOneWord#0;class#WordSearchTest#0" expanded="false" />
@@ -1587,7 +1615,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/WordSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          <caret line="30" column="49" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

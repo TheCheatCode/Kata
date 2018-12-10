@@ -28,7 +28,7 @@ public class WordSearch {
     public String ReadFile(String fileName) {
         String result;
         if (!fileName.endsWith("txt")) {
-            return "";
+            return "File must end with \".txt\".";
         }
 
         try(BufferedReader reader = new BufferedReader(new FileReader(fileName))) {

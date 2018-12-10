@@ -73,10 +73,10 @@ public class WordSearchTest {
     }
 
     @Test
-    public void ReadFile_WhenNonTxtFile_ReturnsEmptyString() {
+    public void ReadFile_WhenNonTxtFile_ReturnsErrorMessage() {
         String result = wordSearch.ReadFile("NonTxtFile.exe");
 
-        assertEquals("", result);
+        assertEquals("File must end with \".txt\".", result);
     }
 
     @Test
