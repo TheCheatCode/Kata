@@ -243,10 +243,10 @@ public class WordSearchTest {
     }
 
     @Test
-    public void SearchGrid_WhenTwoLetterTwoSquareFirstLetterAfterWord_ReturnsLocation() {
+    public void SearchGrid_WhenTwoLetterThreeSquareFirstLetterAfterWord_ReturnsLocation() {
         String expected = "IT: (0,0),(1,0)";
         String[] words = {"IT"};
-        char[][] grid = {{'I','T'},{'I','B'}};
+        char[][] grid = {{'I','T','L'},{'X','Y','Z'},{'F','I','B'}};
 
         String result = wordSearch.SearchGrid(words, grid);
 
@@ -279,7 +279,7 @@ public class WordSearchTest {
     public void SearchGrid_WhenMultipleTwoLetterWordsFourSquare_ReturnsLocation() {
         String expected = "UP: (2,2),(3,2)\nIS: (0,3),(1,3)\nIF: (2,0),(3,0)";
         String[] words = {"UP","IS","IF"};
-        char[][] grid = {{'U','M','I','F'},{'L','L','J','H'},{'H','S','U','P'},{'I','S','J','S'}};
+        char[][] grid = {{'U','M','I','F'},{'L','L','J','H'},{'H','Q','U','P'},{'I','S','J','S'}};
 
         String result = wordSearch.SearchGrid(words, grid);
 
@@ -379,6 +379,17 @@ public class WordSearchTest {
         String expected = "ZIP: (3,3),(2,2),(1,1)\nALE: (3,2),(2,1),(1,0)";
         String[] words = {"ZIP","ALE"};
         char[][] grid = {{'B','E','S','M'},{'T','P','L','D'},{'C','N','I','A'},{'N','G','M','Z'}};
+
+        String result = wordSearch.SearchGrid(words, grid);
+
+        assertEquals(expected, result);
+    }
+
+    @Test
+    public void SearchGrid_WhenMultipleThreeLetterFourSquareNorthEast_ReturnsLocation() {
+        String expected = "DIP: (1,3),(2,2),(3,1)\nCAL: (1,2),(2,1),(3,0)";
+        String[] words = {"DIP","CAL"};
+        char[][] grid = {{'B','E','S','L'},{'T','P','A','P'},{'C','C','I','A'},{'N','D','M','Z'}};
 
         String result = wordSearch.SearchGrid(words, grid);
 

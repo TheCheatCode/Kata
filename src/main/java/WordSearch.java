@@ -112,7 +112,7 @@ public class WordSearch {
 
                 searchResponse += SearchDirections(x, y, word.substring(1), grid, direction);
 
-                //Check if word fits East then send to SouthEast
+                //Check if word fits East then send to Southeast
                 if ((grid.length - x) > (word.length() - 1)) {
                     direction = "Southeast";
 
@@ -134,6 +134,12 @@ public class WordSearch {
 
                 searchResponse += SearchDirections(x, y, word.substring(1), grid, direction);
 
+                //Check if word fits East then send to Northeast
+                if ((grid.length - x) > (word.length() - 1)) {
+                    direction = "Northeast";
+
+                    searchResponse += SearchDirections(x, y, word.substring(1), grid, direction);
+                }
                 if (x >= (word.length() - 1)) {
                     direction = "Northwest";
 
@@ -177,6 +183,10 @@ public class WordSearch {
             case "Southwest":
                 x--;
                 y++;
+                break;
+            case "Northeast":
+                x++;
+                y--;
                 break;
             case "Northwest":
                 x--;
