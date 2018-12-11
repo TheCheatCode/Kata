@@ -16,7 +16,8 @@ BUILD SUCCESSFUL in 1s
 ```
 gradle run
 ```
-Exit by typing "exit".  Enter a file path to Word Search input, must end with ".txt":
+Exit by typing "exit".  
+Enter a file path to Word Search input, must end with ".txt":
 ```
 C:/txts/WordSearchInput.txt
 ```
